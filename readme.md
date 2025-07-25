@@ -18,11 +18,11 @@ This project uses a machine learning model to predict fraudulent insurance claim
 
 ---
 
-## 👥 Team Members – **FraudSquad4**
+## 👥 Team Members – **TriCache**
 
 - **Anishet Rajesh** – Data preprocessing
 - **Aditya Narayan Dash** – Model creation & training
-- **Balraj Mahto** – Streamlit frontend development
+- **Balraj Mahto** – Streamlit frontend development,Visualizations
 
 ---
 ## 📦 Tech Stack
@@ -66,15 +66,16 @@ This project uses a machine learning model to predict fraudulent insurance claim
 - Real-world problem, real-world UI
 - Interactive visualizations for explainability
 - Downloadable outputs
-
 ---
 
-## 🖼️ Dashboard Preview
+## 🧠 Model Info
 
-> Streamlit-based UI
+- *Algorithm*: Random Forest Classifier
+- *Trained on*: Auto Insurance Fraud Claims dataset
+- *Training Accuracy*: ~99%
+- *Validation Accuracy*: ~99%
 
-![dashboard](./assets/dashboard.png)
-
+Model saved as: model.pkl
 ---
 
 ## 📝 Files in Repository
@@ -86,3 +87,20 @@ This project uses a machine learning model to predict fraudulent insurance claim
 ├── train_model.py                # Model training script
 ├── Auto_Insurance_Fraud_*.csv    # Input data files
 └── README.md
+
+## 🚀 How to Run the App Locally
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/fraud-detection-app.git
+cd fraud-detection-app
+
+##Install Dependencies:
+pip install -r requirements.txt
+
+Or manually:
+pip install streamlit pandas scikit-learn matplotlib plotly joblib
+
+Run the App:
+streamlit run app.py 
