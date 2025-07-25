@@ -6,7 +6,7 @@
 ## 📢 Learnathon Project Submission
 
 This project was built and submitted as part of the **Learnathon Challenge**.  
-🔗 **GitHub Repository Link**: [github.com/FraudSquad4/auto-fraud-detection](https://github.com/FraudSquad4/auto-fraud-detection)  
+🔗 **GitHub Repository Link**: [https://github.com/BalrajMahto/Auto-Insurance-Fraud-Prediction]
 ---
 
 ## 🧠 Project Overview
